@@ -1,0 +1,21 @@
+:root {
+    --main-bg-color: #f7f8f9;
+    font-family: Inter, sans-serif;
+    font-feature-settings: "case", "cv02", "cv03", "cv04", "cv11";
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: InterVariable, sans-serif;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
